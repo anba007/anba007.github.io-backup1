@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.taC{
+	text-align: center;
+}
+/*头部代码*/
+.header-es {
+	margin: 0 auto;
+	width: 1100px;
+	height: 90px;
+	padding-bottom: 15px;
+	background-color: white;
+	display: flex;
+	display: -webkit-flex;
+}
+.header-es-aa {
+	flex: 1;
+	-webkit-flex: 1;
+	display: block;
+    width: 100px;
+    background: url(../img/logo.png) no-repeat;
+    background-size: 100px 71px;
+    height:49px;
+    float: left;
+    margin-top: 22px;
+    cursor: pointer;
+    background-size: contain;
+}
+.header-as-ab {
+	height: 90px;
+	float: right;
+}
+.header-as-ab a {
+	line-height: 90px;
+	text-decoration: none;
+	color: #676767;
+	margin-left: 30px;
+	font-size: 14px;
+}
+/*wan*/
+/*底部*/
+.chunmi {
+	width: 348px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.chunmi-aas {
+	display: block;
+	width: 113px;
+	float: left;
+	height: 15px;
+	line-height: 15px;
+	margin-top: 22px;
+	text-align: center;
+	color: #a1a1a1;
+	font-size: 12px;
+	text-decoration: none;
+}
+.gongsixinxi {
+	text-align: center;
+}
+.gongsixinxi .chu {
+	font-size: 14px;
+	color: #000;
+}
+.gongsixinxi .zhengchang {
+	font-size: 12px;
+	color: #a1a1a1;
+}
+.gongsixinxi p {
+	font-size: 12px;
+	color: #a1a1a1;
+	margin: 10px 0 0 0;
+}
+.gongsixinxi .zhengchang {
+	font-size: 12px;
+	color: #a1a1a1;
+}
+.chunmi-footer {
+	height: 60px;
+	background-color: #F1F1F1;
+	margin-top: 20px;
+}
+.chunmi-footer-zi {
+	margin: 0 auto;
+	width: 1100px;
+	color: #888888;
+	font-size: 12px;
+	display: block;
+	padding-top: 15px;
+}
+.chunmi-footer-zis {
+	margin: 0 auto;
+	width: 1100px;
+	color: #888888;
+	font-size: 12px;
+	display: block;
+	height: 12px;
+	padding-top: 6px;
+}
+.chunmi-footer-zis span{
+	display: inline-block;
+	width: 14px;
+	height: 17px;
+}
+.chunmi-footer-zis span img{
+	display: block;
+	width: 100%;
+	margin-top: 5px;
+}
+/*共同样式*/
+.border {
+	border-left: 1px solid #888888;
+}
+.qingchu {
+	clear: both;
+}
+/*a标签统一样式*/
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f7941f
+}
+
+
+/*wan*/
+
+
+/*wan*/

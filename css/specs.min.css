@@ -1,0 +1,316 @@
+.xm-product-box .hd {
+	background-color: #f5f5f5
+}
+
+.xm-product-box .ft {
+	border-top: 1px solid #e0e0e0
+}
+
+.xm-product-box .nav-bar {
+	margin-top: 15px;
+	position: relative;
+	height: 50px;
+	color: #616161
+}
+
+.xm-product-box .nav-bar .title {
+	float: left;
+	_display: inline;
+	margin: 10px 0 0 0
+}
+
+.xm-product-box .nav-bar .title h2 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #424242
+}
+
+.xm-product-box .nav-bar .title small {
+	font-size: 12px
+}
+
+.xm-product-box .nav-bar .nav {
+	float: right;
+	_display: inline;
+	margin: 10px 0 0 0
+}
+
+.xm-product-box .nav-bar .nav .nav-switch {
+	margin-right: 10px;
+	line-height: 30px
+}
+
+.xm-product-box .nav-switch .separator {
+	color: #eee
+}
+
+.xm-product-box .nav-switch .tab, .xm-product-box .nav-switch .link {
+	color: #616161
+}
+
+.xm-product-box .nav-switch .tab:hover, .xm-product-box .nav-switch .link:hover {
+	color: #ff6700
+}
+
+.xm-product-box .nav-switch .active, .xm-product-box .nav-switch .tab-active {
+	color: #ff6700;
+	cursor: default
+}
+
+.xm-product-box .nav-switch .active:hover, .xm-product-box .nav-switch .tab-active:hover {
+	color: #ff6700
+}
+
+.xm-product-box .separator {
+	font-family: sans-serif
+}
+
+.xm-product-box .btn-disable {
+	cursor: default
+}
+
+.xm-product-box .btn-disable:hover {
+	background: #616161
+}
+
+.xm-product-box .btn-disable:active {
+	background: #616161;
+	-webkit-box-shadow: none;
+	box-shadow: none
+}
+
+.xm-product-box {
+	position: relative;
+	z-index: 4;
+	background: #fff;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	-webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.07);
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.07)
+}
+
+.xm-product-box .nav-bar {
+	position: relative;
+	height: 63px;
+	width: 100%;
+	margin-top: 0;
+	color: #616161
+}
+
+.xm-product-box .nav-bar h2 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 60px;
+	color: #212121;
+	float: left
+}
+
+.xm-product-box .nav-bar .right, .xm-product-box .nav-bar .left {
+	float: right;
+	_display: inline;
+	margin: 17px 0 0 0
+}
+
+.xm-product-box .nav-bar .right a, .xm-product-box .nav-bar .left a {
+	color: #616161
+}
+
+.xm-product-box .nav-bar .right a:hover, .xm-product-box .nav-bar .left a:hover {
+	color: #ff6700
+}
+
+.xm-product-box .nav-bar .right a.cur, .xm-product-box .nav-bar .left a.cur {
+	color: #ff6700
+}
+
+.xm-product-box .nav-bar .right .separator, .xm-product-box .nav-bar .left .separator {
+	margin: 0 .25em;
+	color: #212121
+}
+
+.xm-product-box .nav-bar .right .btn, .xm-product-box .nav-bar .left .btn {
+	color: #fff;
+	margin-left: 5px;
+	vertical-align: inherit
+}
+
+.xm-product-box .nav-bar .right .btn:hover, .xm-product-box .nav-bar .left .btn:hover {
+	color: #fff
+}
+
+.xm-product-box .nav-bar .left {
+	float: left;
+	margin-left: 5px;
+	font-size: 12px;
+	margin-top: 21px
+}
+
+.xm-product-box .nav-bar .right .separator {
+	color: #e0e0e0
+}
+
+.xm-product-box.nav-bar-hidden {
+	position: fixed;
+	top: -10px;
+	left: 0;
+	z-index: 99;
+	width: 100%;
+	margin-top: -60px;
+	-webkit-transition: margin-top .3s linear;
+	transition: margin-top .3s linear;
+	-webkit-box-shadow: none;
+	box-shadow: none
+}
+
+.xm-product-box.nav-bar-hidden.nav_fix {
+	position: fixed;
+	top: 0;
+	background: #fff;
+	margin-top: 0;
+	border-bottom: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	-webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.07);
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.07)
+}
+
+.mj-specs {
+	overflow: hidden;
+	_zoom: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-moz-font-feature-settings: "liga", "kern";
+	width: 1226px;
+	margin: 0 auto;
+	padding: 40px 0
+}
+
+.mj-specs .specs-items {
+	overflow: hidden;
+	_zoom: 1;
+	list-style: none;
+	border-bottom: 1px solid #e9e9e9
+}
+
+.mj-specs .specs-items .items-title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 100%;
+	text-align: center;
+	border-right: 1px solid #e9e9e9
+}
+
+.mj-specs .specs-items .items-title span {
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	margin-top: -20px;
+	color: #000
+}
+
+.mj-specs .specs-items .items-content {
+	position: relative;
+	padding-left: 300px;
+	color: #999
+}
+
+.mj-specs .specs-items .items-content .items-text {
+	font-size: 14px;
+	padding: 40px 0 40px 96px
+}
+
+.mj-specs .specs-items .items-content .items-text p {
+	margin: 1em 0 0;
+	padding-left: 180px;
+	min-height: 35px
+}
+
+.mj-specs .specs-items .items-content .items-text p b {
+	font-weight: normal;
+	float: left;
+	width: 180px;
+	margin-left: -180px;
+	line-height: 35px
+}
+
+.mj-specs .specs-items .items-content .items-text p span {
+	line-height: 30px
+}
+
+.mj-specs .specs-items .items-content .items-text p em {
+	font-size: 12px;
+	color: rgba(102, 102, 102, 0.5)
+}
+
+.mj-specs .specs-items .items-notes {
+	line-height: 30px;
+	color: #999;
+	padding: 30px 0
+}
+
+.mj-specs .specs-items:last-child {
+	border-bottom: 0
+}
+
+.mj-specs .header-image-01 {
+	padding-left: 40px
+}
+
+.mj-specs .header-image-01 i.icon {
+	display: block;
+	margin: 0 auto 30px auto;
+	height: 140px;
+	background: url("specs-1.jpg")/*tpa=http://www.chunmi.com/electric/img/specs-1.jpg*/ no-repeat center center
+}
+
+.mj-specs .header-image-01 i.icon-01 {
+	width: 205px;
+	background-position: 0 0
+}
+
+.mj-specs .header-image-01 i.icon-02 {
+	width: 205px;
+	background-position: -278px 0
+}
+
+.mj-specs .header-image-01 i.icon-03 {
+	width: 205px;
+	background-position: -480px 0
+}
+
+.mj-specs .header-image-01 ul {
+	margin-left: 50px;
+	padding: 100px 0 100px 0;
+	overflow: hidden;
+	_zoom: 1;
+	margin: 0
+}
+
+.mj-specs .header-image-01 ul li {
+	margin-left: 50px;
+	text-align: center;
+	float: left;
+	list-style: none
+}
+
+.mj-specs .items-text>span {
+	line-height: 2
+}
+
+.mj-specs .header-image-02 {
+	width: 395px;
+	height: 502px;
+	background: url("specs-2.jpg")/*tpa=http://www.chunmi.com/electric/img/specs-2.jpg*/ no-repeat center 0
+}
+
+.mj-specs .img-specs {
+	width: 100%;
+	height: 400px;
+	background: url("specs.jpg")/*tpa=http://www.chunmi.com/electric/img/specs.jpg*/ no-repeat 40px center
+}
