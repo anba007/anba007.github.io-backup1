@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>笨笨科技</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<meta name="keywords" content="IOT,物联网,新风系统,笨笨科技,北京笨笨,北京笨笨科技有限公司,黑科技,家庭智能,IOT,iot,ecobentech,笨笨," />
+		<meta name="Description" content="IoT技术结合实用美学设计,笨笨新风宝好用不贵不忽悠,耐看不丑不怕比!"/>
+		<link rel="stylesheet" type="text/css" href="../static/css/switch.css"/>
+		<link rel="stylesheet" type="text/css" href="../static/css/chunmi_index.css"/>
+	</head>
+
+	<body>
+		<div class="header-es">
+			<div class="header-es-aa" onclick="window.location.href='index.html'"></div>
+
+			<div class="header-as-ab">
+				<a href="index.html">首页 Home</a>
+				<a href="introduction.html">新风 FreshAir</a>
+				<a href="ihindex.html">智慧城市 ICity</a>
+				<a href="electric.html">万物互联 IOT</a>
+				<a href="contact.html">联系我们 Contact us</a>			
+			</div>
+
+		</div>
+		<!-- Swiper -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<a href="index.html" class="swiper-slide img1-slide"></a>
+				<a href="ih2index.html" class="swiper-slide img2-slide"></a>
+				<a href="#" class="swiper-slide img3-slide" target="_blank"></a>
+				<a href="#" class="swiper-slide img4-slide" target="_blank"></a>
+				<a href="introduction.html" class="swiper-slide img5-slide"></a>
+				<a href="www.ecobentech.com" class="swiper-slide img6-slide"></a>
+			</div>
+			<!-- 左右箭头 -->
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+		</div>
+		<!--底部-->
+		<div class="d_foot_o ">
+			<div class="chunmi ">
+				<div class="chunmi-as ">
+					<a href="index.html" class="chunmi-aas ">返回首页</a>
+					<a href="contact.html" class="chunmi-aas border ">联系笨笨</a>
+
+					<div id="contentasq ">
+						<a href="#" onclick="dianwo()" class="chunmi-aas border ">项目合作</a>
+					</div>
+					<div class="qingchu "></div>
+				</div>
+			</div>
+			<div class="gongsixinxi ">
+				<span class="chu "></span>
+				<br>
+				<span class="zhengchang "></span>
+				<p class="xingxi ">中国北京市昌平区城北街道府学路33号 <br>
+				No.33,Fu Xue Road,Chengbei street,Changping District,Beijing</p>
+				<span class="zhengchang ">Email：ecobentech@aliyun.com</span>
+			</div>
+			<div class="chunmi-footer taC">
+				<div class="chunmi-footer-zi ">
+					Copyright © 2018.EcoBentech.com All rights reserved.
+				</div>
+				<div class="chunmi-footer-zis ">北京笨笨科技有限公司&nbsp;&nbsp;2018 京ICP备18039368号&nbsp;&nbsp;<span><img src="beian.png"/></span>京公网安备 *************号</div>
+			</div>
+		</div>
+		<div onclick="yincang()" id="show" style="position: absolute;  top: 0;left: 0;z-index: 3; width: 100%;height: 100%;background-color: #000000;opacity: 0.4;display: none;">
+		</div>
+		<div id="xianshi" style="width: 800px;  display: none; position: absolute; top: 50%; left: 50%;z-index: 99; margin-top: -100px; margin-left: -400px; ">
+				<div style="background: url(chunmi_1.jpg)/*tpa=http://www.chunmi.com/img/chunmi_1.jpg*/ no-repeat;background-size: 200px;width: 198px; height: 225px;padding-right: -13px;padding-left: 86px;color: white;vertical-align: bottom;display: table-cell;">微博</div>
+				<div style="background: url(chunmi_2.jpg)/*tpa=http://www.chunmi.com/img/chunmi_2.jpg*/ no-repeat;background-size: 200px;width: 198px; height: 225px;padding-right: -13px;padding-left: 70px;color: white;vertical-align: bottom;display: table-cell;">微信公众号</div>
+				<div style="background: url(chunmi_3.jpg)/*tpa=http://www.chunmi.com/img/chunmi_3.jpg*/ no-repeat;background-size: 200px;width: 198px; height: 225px;padding-right: -13px;padding-left: 70px;color: white;vertical-align: bottom;display: table-cell;">微信订阅号</div>
+
+			</div>
+		<!-- Swiper JS -->
+		<script src="../static/js/switch.js"></script>
+		<script type="text/javascript">
+			function dianwo() {
+				document.getElementById("show").style.display = "block";
+				document.getElementById("xianshi").style.display = "block";
+				document.body.style.overflow = "hidden";
+			}
+
+			function yincang() {
+				document.getElementById("show").style.display = "none";
+				document.getElementById("xianshi").style.display = "none";
+				document.body.style.overflow = "auto";
+			}
+		</script>
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				nextButton: '.swiper-button-next',
+				prevButton: '.swiper-button-prev',
+				loop: true, //循环
+				autoplay: 5000, //速度
+				autoplayDisableOnInteraction : false
+			});
+		</script>
+	</body>
+
+</html>
